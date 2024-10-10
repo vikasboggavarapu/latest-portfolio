@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from './components/Hero'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
@@ -7,7 +8,7 @@ const App = () => {
       <div className='fixed inset-0 bg-fixed bg-cover bg-center bg-img'>
         <div className='relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto'>
          <Hero />
-
+         <Navbar/>
         </div>
         
       </div>

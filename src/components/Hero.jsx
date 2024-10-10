@@ -8,19 +8,19 @@ const Hero = () => {
         <h2 className='my-8 p-2 text-3xl font-bold md:text-6xl lg:text-[5rem]'>
           {HERO.name}
         </h2>
-       <p className='p-2 text-2xl tracking-tighter lg:text-3xl '>
+       <p className='p-2 text-2xl tracking-normal lg:text-3xl '>
         {HERO.greet}
        </p>
-       <p className='mb-8 p-5 text-xl'>
+       <p className='mb-8 p-5 text-2xl'>
         {HERO.description}
        </p>
        <div className='w-full md:w-1/2 lg:p-8'>
        </div>
-
         </div>
-       <div className='flex  justify-center px-11'>
+       <div className='flex justify-center lg:w-1/2 '>
         <img src={image} width={440} height={440} alt='vikas' className='rounded-3xl'></img>
        </div>
+       
    </section>
   )
 }
